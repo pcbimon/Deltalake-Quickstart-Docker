@@ -1,0 +1,8 @@
+version: '3'
+services:
+  deltalake:
+    image: deltaio/delta-docker
+    ports:
+      - 8888-8889:8888-8889
+    volumes:
+      - ./data:/data
